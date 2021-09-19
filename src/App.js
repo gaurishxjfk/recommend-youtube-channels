@@ -12,6 +12,11 @@ const channelList = {
       name: "akshay saini",
       subs: "40k"
     }
+    ,
+    {
+      name: "traversy media",
+      subs: "400k"
+    }
   ],
   podcast: [
     {
@@ -21,6 +26,10 @@ const channelList = {
     {
       name: "joerogan",
       subs: "40m"
+    },
+    {
+      name: "random chikibum",
+      subs: "2m"
     }
   ],
   chess: [
@@ -31,6 +40,10 @@ const channelList = {
     {
       name: "chessbase india",
       subs: "400k"
+    },
+    {
+      name: "chess talks",
+      subs: "900k"
     }
   ]
 };
@@ -67,22 +80,3 @@ export default function App() {
     </div>
   );
 }
-/****
- *    chessArr.map((element) => (
-            console.log(element);
-          ))
-        
-          // <div className="list-item">
-          //   <h3>titile</h3>
-          //    <p>this is desci[ti</p>
-          //   </div>
-
-
-
-               chessArr.map((item) => (
-        
-        <div className="list-item">
-             <h3>{item}</h3>
-              <p>this is desci[ti</p>
-             </div>
- */
